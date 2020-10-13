@@ -1,0 +1,16 @@
+body {text-align: center;
+font-family: 'IBM Plex Sans', sans-serif;
+background-color: #e3fdfd;
+background-image: url("https://images.unsplash.com/photo-1554189097-ffe88e998a2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80");
+}
+
+h2 { font-family: 'Lobster Two', cursive; text-align: center;}
+h3 {font-family: 'Antic Slab', serif;}
+
+pre {font-family: 'Lobster Two' }
+.icon{color: #28df99;}
+.btn {text-align: center; margin: 13px;}
+.img{width: 25%; float:right;}
+.outdoor-p{ text-align: center; line-height: 45px;}
+.indoor-p{text-align: center; line-height: 45px;}
+.restaurant-p{text-align: center; line-height: 45px;}
