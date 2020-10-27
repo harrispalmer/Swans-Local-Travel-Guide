@@ -1,9 +1,12 @@
 body {text-align: center;
 font-family: 'IBM Plex Sans', sans-serif;
-background-color: #e3fdfd;
+background-color: #e8ffff;
 background-image: url("https://images.unsplash.com/photo-1554189097-ffe88e998a2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80");
+
 }
 
+
+h1 {color: black;}
 h2 { font-family: 'Lobster Two', cursive; text-align: center;}
 h3 {font-family: 'Antic Slab', serif;}
 
@@ -11,11 +14,21 @@ pre {font-family: 'Lobster Two' }
 .icon{color: #28df99;}
 .btn {text-align: center; margin: 13px;}
 
-.image{width: 65%;
-  text-align:center;
-  margin-left: 12%;
-  font-size: 3%;
+.image{text-align: center;}
+.screen{text-align: center;}
+.nav{text-align:center;}
+
+.main-body{margin: auto;}
+.para{margin: 2% 20%;
+font-family: sans-serif;
 }
-.outdoor-p{ text-align: center; line-height: 45px;}
-.indoor-p{text-align: center; line-height: 45px;}
-.restaurant-p{text-align: center; line-height: 45px;}
+
+.card-group{text-align-last: center;}
+
+
+
+
+@media (max-width: 750px){
+  p{font-size: 1.25rem;
+  line-height: 1.25;}
+}
